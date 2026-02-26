@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="ru" id="htmlRoot">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="page.title">AI для БП - Интеллектуальная автоматизация бизнес-процессов</title>
+    <meta name="description" content="Платформа для автоматизированной формализации, анализа и оптимизации бизнес-процессов с помощью ИИ">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="shortcut icon" href="favicon.svg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container nav-container">
+                <div class="logo">
+                    <span class="logo-text">AI<span class="accent">БП</span></span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#pillars" data-i18n="nav.features">Возможности</a></li>
+                    <li><a href="#metrics" data-i18n="nav.results">Результаты</a></li>
+                    <li><a href="#pricing" data-i18n="nav.pricing">Тарифы</a></li>
+                    <li><a href="#contact" class="btn-primary-small" data-i18n="nav.start">Начать</a></li>
+                    <li><button id="langSwitch" class="lang-switch">EN</button></li>
+                </ul>
+                <button class="hamburger" id="hamburger">☰</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-label" data-i18n="hero.label">Автоматизация управления бизнес-процессами</div>
+                <h1 class="hero-title" data-i18n="hero.title">Интеллект на <span class="accent">службе процессов</span></h1>
+                <p class="hero-description" data-i18n="hero.description">
+                    Тратите много времени на рутину? Ошибки в аналитике замедляют решения? Расходы на персонал растут?
+                </p>
+                <ul class="hero-pains">
+                    <li data-i18n="hero.pain1">Ручная обработка заявок и документов съедает часы команды</li>
+                    <li data-i18n="hero.pain2">Потери из-за ошибок и нестыковок в процессах</li>
+                    <li data-i18n="hero.pain3">Дорогой операционный контур без масштабирования</li>
+                </ul>
+                <p class="hero-solution" data-i18n="hero.solution">AI for BP берет рутину на себя: анализирует данные, выявляет узкие места и формирует регламенты, чтобы команда занималась ростом, а не ручными задачами.</p>
+                <div class="hero-buttons">
+                    <a href="#demo" class="btn btn-lg btn-primary" data-i18n="hero.demo">Попробовать демо</a>
+                    <a href="#contact" class="btn btn-lg btn-outline" data-i18n="hero.consult">Записаться на аудит</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Four Pillars Section -->
+    <section id="pillars" class="pillars-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="pillars.title">Четыре столпа платформы</h2>
+            <p class="section-subtitle" data-i18n="pillars.subtitle">Полный цикл управления бизнес-процессами</p>
+
+            <div class="pillars-grid">
+                <a class="pillar-title-card" data-pillar="1" href="#pillar-detail-1">
+                    <div class="pillar-header">
+                        <div class="pillar-number">01</div>
+                        <h3 data-i18n="pillar1.title">Анализ и формализация</h3>
+                    </div>
+                </a>
+                <a class="pillar-title-card" data-pillar="2" href="#pillar-detail-2">
+                    <div class="pillar-header">
+                        <div class="pillar-number">02</div>
+                        <h3 data-i18n="pillar2.title">Интерактивный диалог</h3>
+                    </div>
+                </a>
+                <a class="pillar-title-card" data-pillar="3" href="#pillar-detail-3">
+                    <div class="pillar-header">
+                        <div class="pillar-number">03</div>
+                        <h3 data-i18n="pillar3.title">Автогенерация документации</h3>
+                    </div>
+                </a>
+                <a class="pillar-title-card" data-pillar="4" href="#pillar-detail-4">
+                    <div class="pillar-header">
+                        <div class="pillar-number">04</div>
+                        <h3 data-i18n="pillar4.title">Управление версиями</h3>
+                    </div>
+                </a>
+            </div>
+
+            <div class="pillar-details">
+                <article class="pillar-detail-card" id="pillar-detail-1" data-pillar="1">
+                    <div class="pillar-detail-content">
+                        <div class="pillar-header">
+                            <div class="pillar-number">01</div>
+                            <h3 data-i18n="pillar1.title">Анализ и формализация</h3>
+                        </div>
+                        <p class="pillar-description" data-i18n="pillar1.desc">Загрузите документы, схемы, аудиозаписи или видео. ИИ анализирует все источники и автоматически формализует процесс, выявив проблемы и неясности.</p>
+                        <ul class="pillar-features">
+                            <li data-i18n="pillar1.f1">Поддержка всех форматов файлов</li>
+                            <li data-i18n="pillar1.f2">Автоматическое выявление проблем</li>
+                            <li data-i18n="pillar1.f3">Анализ логических разрывов и дублирования</li>
+                            <li data-i18n="pillar1.f4">GAP анализ</li>
+                        </ul>
+                    </div>
+                    <div class="pillar-media">
+                        <video class="pillar-video" src="video/pillar-2.mp4" muted loop playsinline preload="auto"></video>
+                    </div>
+                </article>
+
+                <article class="pillar-detail-card reverse" id="pillar-detail-2" data-pillar="2">
+                    <div class="pillar-detail-content">
+                        <div class="pillar-header">
+                            <div class="pillar-number">02</div>
+                            <h3 data-i18n="pillar2.title">Интерактивный диалог</h3>
+                        </div>
+                        <p class="pillar-description" data-i18n="pillar2.desc">Обсуждайте процесс с ИИ-помощником. Отвечайте на вопросы, уточняйте детали, рассматривайте предложения по оптимизации в режиме реального времени.</p>
+                        <ul class="pillar-features">
+                            <li data-i18n="pillar2.f1">Текстовый и голосовой интерфейс</li>
+                            <li data-i18n="pillar2.f2">Итеративное уточнение процесса</li>
+                            <li data-i18n="pillar2.f3">Рекомендации по оптимизации</li>
+                        </ul>
+                    </div>
+                    <div class="pillar-media">
+                        <video class="pillar-video" src="video/pillar-1.mp4" muted loop playsinline preload="auto"></video>
+                    </div>
+                </article>
+
+                <article class="pillar-detail-card" id="pillar-detail-3" data-pillar="3">
+                    <div class="pillar-detail-content">
+                        <div class="pillar-header">
+                            <div class="pillar-number">03</div>
+                            <h3 data-i18n="pillar3.title">Автогенерация документации</h3>
+                        </div>
+                        <p class="pillar-description" data-i18n="pillar3.desc">Система автоматически создает все необходимые документы: схемы BPMN, регламенты, инструкции, шаблоны, RACI-матрицы и многое другое.</p>
+                        <ul class="pillar-features">
+                            <li data-i18n="pillar3.f1">BPMN 2.0 диаграммы</li>
+                            <li data-i18n="pillar3.f2">Текстовые регламенты и инструкции</li>
+                            <li data-i18n="pillar3.f3">Матрицы ответственности</li>
+                            <li data-i18n="pillar3.f4">Поддержка консистентности</li>
+                        </ul>
+                    </div>
+                    <div class="pillar-media">
+                        <video class="pillar-video" src="video/pillar-3.mp4" muted loop playsinline preload="auto"></video>
+                    </div>
+                </article>
+
+                <article class="pillar-detail-card reverse" id="pillar-detail-4" data-pillar="4">
+                    <div class="pillar-detail-content">
+                        <div class="pillar-header">
+                            <div class="pillar-number">04</div>
+                            <h3 data-i18n="pillar4.title">Управление версиями</h3>
+                        </div>
+                        <p class="pillar-description" data-i18n="pillar4.desc">Храните все версии процессов со статусами: в разработке, рабочий, архивный. Отслеживайте историю изменений и возвращайтесь к любой версии.</p>
+                        <ul class="pillar-features">
+                            <li data-i18n="pillar4.f1">Полная история изменений</li>
+                            <li data-i18n="pillar4.f2">Управление статусами версий</li>
+                            <li data-i18n="pillar4.f3">Сравнение и откат версий</li>
+                        </ul>
+                    </div>
+                    <div class="pillar-media">
+                        <video class="pillar-video" src="video/pillar-4.mp4" muted loop playsinline preload="auto"></video>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Metrics Section -->
+    <section id="metrics" class="metrics-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="metrics.title">Результаты внедрения</h2>
+            
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-value">70%</div>
+                    <div class="metric-label" data-i18n="metric1.label">Сокращение времени на формализацию</div>
+                    <p class="metric-desc" data-i18n="metric1.desc">Было: согласование процесса неделями → Стало: формализация за 2–3 дня</p>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">85%</div>
+                    <div class="metric-label" data-i18n="metric2.label">Снижение ошибок в процессах</div>
+                    <p class="metric-desc" data-i18n="metric2.desc">Было: скрытые ошибки в регламентах → Стало: автоматическая проверка противоречий</p>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">3x</div>
+                    <div class="metric-label" data-i18n="metric3.label">Ускорение адаптации сотрудников</div>
+                    <p class="metric-desc" data-i18n="metric3.desc">Было: долгий онбординг → Стало: сотрудники входят в процессы в 3 раза быстрее</p>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-value">60%</div>
+                    <div class="metric-label" data-i18n="metric4.label">Экономия vs. традиционных BPM</div>
+                    <p class="metric-desc" data-i18n="metric4.desc">Было: высокие затраты на ручной контур → Стало: до 60% экономии на операционных расходах</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="why.title">Почему именно мы</h2>
+            <p class="section-subtitle" data-i18n="why.subtitle">Сравнение подходов</p>
+
+            <div class="comparison-table-container">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Решение</th>
+                            <th>Точность отражения</th>
+                            <th>Голосовое интервью</th>
+                            <th>Версионирование</th>
+                            <th>Анализ док-тов (текст/граф.)</th>
+                            <th>Формирование схем/регламентов</th>
+                            <th>Стоимость (USD/год)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="our-row">
+                            <td><strong>AI for BP (наше решение)</strong></td>
+                            <td><strong>++</strong></td>
+                            <td><strong>++ (voice + chat)</strong></td>
+                            <td><strong>++</strong></td>
+                            <td><strong>++ (LLM + docs + media)</strong></td>
+                            <td><strong>++ (BPMN + регламенты)</strong></td>
+                            <td><strong>3k–15k (pilot + subscription)</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Celonis</td>
+                            <td>+</td>
+                            <td>~ (conversational AI)</td>
+                            <td>+</td>
+                            <td>+</td>
+                            <td>+</td>
+                            <td>50k–500k+ (enterprise)</td>
+                        </tr>
+                        <tr>
+                            <td>KYP.ai</td>
+                            <td>+</td>
+                            <td>+ (conversational)</td>
+                            <td>+</td>
+                            <td>+ (LLM + docs)</td>
+                            <td>+</td>
+                            <td>10k–100k (SaaS)</td>
+                        </tr>
+                        <tr>
+                            <td>Appian</td>
+                            <td>+</td>
+                            <td>~</td>
+                            <td>+</td>
+                            <td>+</td>
+                            <td>+</td>
+                            <td>25k–200k (per user tiers)</td>
+                        </tr>
+                        <tr>
+                            <td>UiPath Process Mining</td>
+                            <td>+</td>
+                            <td>+ (Autopilot)</td>
+                            <td>+</td>
+                            <td>+ (task mining)</td>
+                            <td>+</td>
+                            <td>20k–150k (Automation Cloud)</td>
+                        </tr>
+                        <tr>
+                            <td>Kissflow</td>
+                            <td>+</td>
+                            <td>~</td>
+                            <td>+</td>
+                            <td>+</td>
+                            <td>+</td>
+                            <td>1.5k–10k (per user, low-code)</td>
+                        </tr>
+                        <tr>
+                            <td>Power Automate (Microsoft)</td>
+                            <td>+</td>
+                            <td>+ (GPT integration)</td>
+                            <td>+</td>
+                            <td>+</td>
+                            <td>+</td>
+                            <td>5k–50k (per user + Copilot)</td>
+                        </tr>
+                        <tr>
+                            <td>Bizagi</td>
+                            <td>+</td>
+                            <td>~</td>
+                            <td>+</td>
+                            <td>~</td>
+                            <td>+</td>
+                            <td>10k–75k (SaaS/Studio)</td>
+                        </tr>
+                        <tr>
+                            <td>SAP Signavio</td>
+                            <td>+</td>
+                            <td>~ (AI modeling)</td>
+                            <td>+</td>
+                            <td>+</td>
+                            <td>+</td>
+                            <td>30k–300k (SAP ecosystem)</td>
+                        </tr>
+                        <tr>
+                            <td>ProcessMaker</td>
+                            <td>+</td>
+                            <td>~</td>
+                            <td>+</td>
+                            <td>~</td>
+                            <td>+</td>
+                            <td>5k–40k (open-source + premium)</td>
+                        </tr>
+                        <tr>
+                            <td>Camunda</td>
+                            <td>+</td>
+                            <td>~</td>
+                            <td>+</td>
+                            <td>+</td>
+                            <td>+ (BPMN)</td>
+                            <td>15k–100k (enterprise edition)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="pricing.title">Тарифные планы</h2>
+            <p class="section-subtitle" data-i18n="pricing.subtitle">Прозрачное ценообразование. Нет скрытых платежей.</p>
+            
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <div class="pricing-title" data-i18n="pricing.starter">Стартовый</div>
+                    <div class="pricing-price">
+                        <span class="price-amount">300 000</span>
+                        <span class="price-period">₽ + 30K/мес</span>
+                    </div>
+                    <p class="pricing-desc" data-i18n="pricing.starter-desc">Для малого бизнеса (до 10 процессов)</p>
+                    <ul class="pricing-list">
+                        <li data-i18n="pricing.s1">✅ До 10 бизнес-процессов</li>
+                        <li data-i18n="pricing.s2">✅ До 5 активных пользователей</li>
+                        <li data-i18n="pricing.s3">✅ ИИ-анализ и формализация</li>
+                        <li data-i18n="pricing.s4">✅ Управление версиями</li>
+                        <li data-i18n="pricing.s5">❌ Интеграции с системами</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline" data-i18n="pricing.choose">Выбрать</a>
+                </div>
+
+                <div class="pricing-card featured">
+                    <div class="pricing-badge" data-i18n="pricing.popular">Популярный</div>
+                    <div class="pricing-title" data-i18n="pricing.pro">Профессиональный</div>
+                    <div class="pricing-price">
+                        <span class="price-amount">600 000</span>
+                        <span class="price-period">₽ + 60K/мес</span>
+                    </div>
+                    <p class="pricing-desc" data-i18n="pricing.pro-desc">Для среднего бизнеса (до 50 процессов)</p>
+                    <ul class="pricing-list">
+                        <li data-i18n="pricing.p1">✅ До 50 бизнес-процессов</li>
+                        <li data-i18n="pricing.p2">✅ До 25 активных пользователей</li>
+                        <li data-i18n="pricing.p3">✅ Все из тарифа "Стартовый"</li>
+                        <li data-i18n="pricing.p4">✅ Интеграция с 1С, CRM, ERP</li>
+                        <li data-i18n="pricing.p5">✅ API для внешних систем</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary" data-i18n="pricing.start">Начать</a>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="pricing-title" data-i18n="pricing.enterprise">Корпоративный</div>
+                    <div class="pricing-price">
+                        <span class="price-amount" data-i18n="pricing.onrequest">По запросу</span>
+                    </div>
+                    <p class="pricing-desc" data-i18n="pricing.ent-desc">Для крупного бизнеса (неограниченно)</p>
+                    <ul class="pricing-list">
+                        <li data-i18n="pricing.e1">✅ Неограниченные процессы</li>
+                        <li data-i18n="pricing.e2">✅ Неограниченные пользователи</li>
+                        <li data-i18n="pricing.e3">✅ Все из тарифа "Профессиональный"</li>
+                        <li data-i18n="pricing.e4">✅ Выделенная инфраструктура</li>
+                        <li data-i18n="pricing.e5">✅ On-premise установка</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline" data-i18n="pricing.consult">Консультация</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo & CTA -->
+    <section id="demo" class="demo-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="demo.title">Готовы попробовать?</h2>
+            <p class="section-subtitle" data-i18n="demo.subtitle">Выберите удобный следующий шаг</p>
+
+            <div class="demo-cta-grid">
+                <article class="demo-cta-card">
+                    <h3 data-i18n="demo.lead.title">Скачайте чек-лист: 10 процессов, которые можно делегировать ИИ уже завтра</h3>
+                    <p data-i18n="demo.lead.desc">Полезный материал для быстрой оценки точек автоматизации в вашей компании.</p>
+                    <a href="#contact" class="btn btn-outline" data-i18n="demo.lead.button" data-lead="checklist">Получить чек-лист</a>
+                </article>
+
+                <article class="demo-cta-card">
+                    <h3 data-i18n="demo.audit.title">Запишитесь на бесплатный 15-минутный аудит ваших процессов</h3>
+                    <p data-i18n="demo.audit.desc">Определим точки роста и приоритетные сценарии внедрения AI под ваш контур.</p>
+                    <a href="#contact" class="btn btn-primary" data-i18n="demo.audit.button" data-lead="audit">Записаться на аудит</a>
+                </article>
+
+                <article class="demo-cta-card">
+                    <h3 data-i18n="demo.quiz.title">Узнайте, сколько ресурсов сэкономит внедрение нейросетей в ваш отдел</h3>
+                    <p data-i18n="demo.quiz.desc">Для отделов продаж, маркетинга, HR и операционных команд.</p>
+                    <a href="#contact" class="btn btn-outline" data-i18n="demo.quiz.button" data-lead="quiz">Рассчитать экономию</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="contact.title">Обратитесь к нам</h2>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 data-i18n="contact.info">Контактные данные</h3>
+                    <div class="contact-item">
+                        <strong data-i18n="contact.email">Email:</strong> info@aiforbp.ru
+                    </div>
+                    <div class="contact-item">
+                        <strong data-i18n="contact.phone">Телефон:</strong> +7 (XXX) XXX-XX-XX
+                    </div>
+                    <div class="contact-item">
+                        <strong data-i18n="contact.telegram">Telegram:</strong> @aiforbp_support
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <input type="text" name="name" placeholder="Имя" data-i18n-placeholder="form.name" required>
+                    <input type="email" name="email" placeholder="Email" data-i18n-placeholder="form.email" required>
+                    <input type="tel" name="phone" placeholder="Телефон" data-i18n-placeholder="form.phone">
+                    <input type="text" name="company" placeholder="Компания" data-i18n-placeholder="form.company">
+                    <textarea name="message" rows="4" placeholder="Сообщение" data-i18n-placeholder="form.message" required></textarea>
+                    <button type="submit" class="btn btn-primary" data-i18n="form.send">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">AI<span class="accent">БП</span></div>
+                    <p data-i18n="footer.desc">Интеллектуальная платформа для автоматизации бизнес-процессов</p>
+                </div>
+                <div class="footer-col">
+                    <h4 data-i18n="footer.product">Продукт</h4>
+                    <ul>
+                        <li><a href="#pillars" data-i18n="footer.features">Возможности</a></li>
+                        <li><a href="#pricing" data-i18n="footer.pricing">Тарифы</a></li>
+                        <li><a href="#demo" data-i18n="footer.demo">Демо</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 data-i18n="footer.company">Компания</h4>
+                    <ul>
+                        <li><a href="#contact" data-i18n="footer.contact">Контакты</a></li>
+                        <li><a href="#" data-i18n="footer.blog">Блог</a></li>
+                        <li><a href="#" data-i18n="footer.about">О проекте</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 data-i18n="footer.docs">Документы</h4>
+                    <ul>
+                        <li><a href="#" data-i18n="footer.terms">Условия использования</a></li>
+                        <li><a href="#" data-i18n="footer.privacy">Политика конфиденциальности</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer.copyright">&copy; 2026 AI для БП. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
